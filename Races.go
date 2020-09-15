@@ -39,7 +39,7 @@ func RunFantasyGame(){
 	King1 := King{
 		Hero,
 		"Wraith King",
-		"People",
+		"dead People",
 	}
 	fmt.Println("First character - "+King1.Name)
 	King1.Damage()
@@ -49,7 +49,7 @@ func RunFantasyGame(){
 	Quenn1 := Quenn{
 		Hero,
 		"Queen of pain",
-		"People",
+		"People or koza",
 	}
 	fmt.Println(" ")
 	fmt.Println("Second character - "+Quenn1.Name)
@@ -59,7 +59,7 @@ func RunFantasyGame(){
 	 Knight1:= Knight{
 		Hero,
 		"Dragon Knight",
-		"People",
+		"People and dragon",
 	}
 	fmt.Println(" ")
 	fmt.Println("Third character - "+Knight1.Name)
@@ -69,7 +69,7 @@ func RunFantasyGame(){
 	Troll1:= Troll{
 		Hero,
 			"Troll Warlock",
-			"People",
+			"Troll",
 	}
 	fmt.Println(" ")
 	fmt.Println("Fourth character - "+Troll1.Name)
